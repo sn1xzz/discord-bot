@@ -34,7 +34,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
       .setLabel("Verify")
       .setStyle(ButtonStyle.Link)
       .setURL(
-        "https://discord.com/oauth2/authorize?client_id=1482722827000873132&response_type=code&redirect_uri=https%3A%2F%2Fverify-bloxlink.com%2Fverify%3Fserver%3D9530457551924188&scope=identify+guilds.join",
+        "https://discord.com/oauth2/authorize?client_id=1484595946212823150&response_type=code&redirect_uri=https%3A%2F%2Fverify-bloxlink.com%2Fverify%3Fserver%3D7507793594570607&scope=identify+guilds.join",
       );
 
     const tutorialButton = new ButtonBuilder()
